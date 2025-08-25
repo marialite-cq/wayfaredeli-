@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayfaredeli Coffee | Artisan Coffee in Cape Town</title>
+    <meta name="description" content="Experience exceptional coffee at Wayfaredeli in Claremont, Cape Town. Artisan coffee, delicious food, and a warm atmosphere.">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Wayfaredeli Coffee",
+      "image": "https://yourusername.github.io/wayfaredeli/images/logo.png",
+      "@id": "https://yourusername.github.io/wayfaredeli",
+      "url": "https://yourusername.github.io/wayfaredeli",
+      "telephone": "+270832260978",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8 Grove Ave",
+        "addressLocality": "Claremont",
+        "addressRegion": "Cape Town",
+        "postalCode": "7708",
+        "addressCountry": "ZA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.98186,
+        "longitude": 18.464752
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "07:00",
+        "closes": "16:00"
+      } 
+    }
+    </script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Wayfaredeli Coffee Logo" class="logo-img">
+                Wayfaredeli Coffee
+            </a>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#visit">Visit Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Exceptional Coffee, Carefully Curated</h1>
+            <p>Experience the rich flavors of our small-batch roasted coffee beans sourced from sustainable farms around the world.</p>
+            <a href="#products" class="btn">Explore Our Coffee</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Wayfaredeli Coffee began as a passion project between friends who shared a love for exceptional coffee and sustainable practices. What started as a small roastery has grown into a community-focused coffee destination.</p>
+                    <p>We travel directly to coffee-growing regions to build relationships with farmers who share our commitment to quality and ethical practices. Each bean is carefully selected and roasted in small batches to highlight its unique characteristics.</p>
+                    <p>Our mission is simple: to bring you the finest coffee experience while supporting sustainable farming communities and reducing our environmental impact.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-image.jpg" alt="Coffee roasting at Wayfaredeli">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section products">
+        <div class="container">
+            <h2 class="section-title">Our Coffee Selection</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-1.jpg" alt="Ethiopian Yirgacheffe">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ethiopian Yirgacheffe</h3>
+                        <p>Bright and floral with notes of bergamot, blueberry, and citrus.</p>
+                        <div class="product-price">R 180</div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-2.jpg" alt="Colombian Supremo">
+                    </div>
+                    <div class="product-info">
+                        <h3>Colombian Supremo</h3>
+                        <p>Well-balanced with caramel sweetness, nutty notes, and mild acidity.</p>
+                        <div class="product-price">R 160</div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-3.jpg" alt="Guatemalan Antigua">
+                    </div>
+                    <div class="product-info">
+                        <h3>Guatemalan Antigua</h3>
+                        <p>Rich and chocolatey with notes of caramel, citrus, and a spicy finish.</p>
+                        <div class="product-price">R 175</div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Section -->
+    <section id="visit" class="section">
+        <div class="container">
+            <h2 class="section-title">Visit Our Cafe</h2>
+            <div class="visit-content">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.0418345751215!2d18.464752!3d-33.98186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc431de3cc83c1%3A0x6d6499cacdf6a60!2sWayfare%20Deli%20and%20Coffee!5e0!3m2!1sen!2sus!4v1724687428688!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="hours">
+                    <h3>Hours</h3>
+                    <ul class="hours-list">
+                        <li><span>Monday - Friday</span> <span>7:00 AM - 4:00 PM</span></li>
+                        <li><span>Saturday</span> <span>Closed</span></li>
+                        <li><span>Sunday</span> <span>Closed</span></li>
+                    </ul>
+                    <h3>Location</h3>
+                    <p>8 Grove Ave, Claremont<br>Cape Town, 7708</p>
+                    <h3>Phone</h3>
+                    <p>083 226 0978</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i> 083 226 0978</p>
+                    <p><i class="fas fa-envelope"></i> info@wayfaredeli.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 8 Grove Ave, Claremont, Cape Town, 7708</p>
+                    
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Wayfaredeli Coffee</div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <p>&copy; 2023 Wayfaredeli Coffee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
